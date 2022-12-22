@@ -3,3 +3,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 Sitemap: https://www.mikrodinet.eu.org/sitemap.xml
+Sitemap: https://www.mikrodinet.eu.org/sitemap.txt
