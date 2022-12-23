@@ -1,0 +1,2 @@
+- [x] I have read and accepted the [Terms and Conditions](https://www.mikrodinet.eu.org/privasy.html)
+- [x] There is reasonable content on the page: ***[insert URL here]***
