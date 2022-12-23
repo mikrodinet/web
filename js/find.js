@@ -1,9 +1,9 @@
-var jumlah_iklan = 11;
+var jumlah_find = 10;
 var waktu_sekarang = new Date()
 var detik = waktu_sekarang.getSeconds(3)
-var pasang_iklan = detik % jumlah_iklan;
-pasang_iklan += 1;
-if (pasang_iklan == 1) {
+var find = detik % jumlah_find;
+find += 1;
+if (find == 1) {
     url = "https://www.mikrodinet.eu.org/?user=Mikrodinet";
     alt = "MIKRODINET";
     title = "MIKRODINET OPPEN SOURCE GITHUB";
@@ -11,7 +11,7 @@ if (pasang_iklan == 1) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 2) {
+if (find == 2) {
     url = "https://www.mikrodinet.eu.org/?user=Github ";
     alt = "GITHUB";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE CODE GITHUB";
@@ -19,7 +19,7 @@ if (pasang_iklan == 2) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 3) {
+if (find == 3) {
     url = "https://www.mikrodinet.eu.org/?user=MICROSOFT  ";
     alt = "MICROSOFT ";
     title = "MIKRODINET OPPEN SOURCE MICROSOFT";
@@ -27,7 +27,7 @@ if (pasang_iklan == 3) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 4) {
+if (find == 4) {
     url = "https://www.mikrodinet.eu.org/?user=GOOGLE";
     alt = "GOOGLE";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE CODE GOOGLE  ";
@@ -35,7 +35,7 @@ if (pasang_iklan == 4) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 5) {
+if (find == 5) {
     url = "https://www.mikrodinet.eu.org/?user=GOLANG ";
     alt = "GOLANG";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE GOLANG (The Go Programming Language)";
@@ -43,7 +43,7 @@ if (pasang_iklan == 5) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 6) {
+if (find == 6) {
     url = "https://www.mikrodinet.eu.org/?user=CLOUDFLARE";
     alt = "CLOUDFLARE";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE CLOUDFLARE";
@@ -51,7 +51,7 @@ if (pasang_iklan == 6) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 7) {
+if (find == 7) {
     url = "https://www.mikrodinet.eu.org/?user=Whatsapp ";
     alt = "WHATSHAPP";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE WHATSAPP";
@@ -59,7 +59,7 @@ if (pasang_iklan == 7) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 8) {
+if (find == 8) {
     url = "https://www.mikrodinet.eu.org/?user=awdev-corporation";
     alt = "Awdev Corporation";
     title = "MIKRODINET FINDER FREE OPPEN SOUCE AWDEV CORPORATION";
@@ -67,7 +67,7 @@ if (pasang_iklan == 8) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 9) {
+if (find == 9) {
     url = "https://www.mikrodinet.eu.org/?user=Twitter";
     alt = " TWITTER";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE TWITTER ";
@@ -75,18 +75,10 @@ if (pasang_iklan == 9) {
     width = "300";
     height = "250";
 }
-if (pasang_iklan == 10) {
+if (find == 10) {
     url = "https://www.mikrodinet.eu.org/?user=FACEBOOK  ";
     alt = " FACEBOOK";
     title = "MIKRODINET FINDER FREE OPPEN SOURCE CODE FACEBOOK  ";
-    banner = "https://www.mikrodinet.eu.org/asset/img/finder-mikrodinet.png  ";
-    width = "300";
-    height = "250";
-}
-if (pasang_iklan == 11) {
-    url = "https://www.mikrodinet.eu.org/?user=WAHYU9KDL  ";
-    alt = "WAHYU9KDL";
-    title = "MIKRODINET FINDER FREE OPPEN SOURCE WAHYU9KDL  ";
     banner = "https://www.mikrodinet.eu.org/asset/img/finder-mikrodinet.png  ";
     width = "300";
     height = "250";
